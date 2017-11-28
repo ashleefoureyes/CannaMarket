@@ -1,11 +1,11 @@
 import tweepy
 from textblob import TextBlob
 
-# Gain Twitter access
-api_key = 'PDEIa5zExerTYtpgc7hnrJmaF'
-api_key_secret = 'gTv1kP5msxoX3WC2ZrBwlbLXdxthLqFqoa1W5ZYPCcAVhlObJO'
-access_token = '917857438505865216-BusHvSeDVEZOXoUZSIgBt1UNZAWBxKy'
-access_token_secret = 'VvEr5GI3XqeHVGK7vdNPMW5jlbSgl9UctexCwAl1ZE8qt'
+# Gain Twitter access - insert your credentials.
+api_key = '____________'
+api_key_secret = '_________'
+access_token = '__________'
+access_token_secret = '______________'
 
 auth = tweepy.OAuthHandler(api_key, api_key_secret)
 auth.set_access_token(access_token, access_token_secret)
